@@ -1,7 +1,13 @@
 # littlelemon-restaurant-website
 
 Restaurant website implemented in  ![Django](https://img.shields.io/badge/Django-092e20?style=flat&logo=django&logoColor=white)
-
+## MAIN API ENPOINTS
+```bash
+/auth/token/login
+/restaurant/api-token-auth
+/restaurant/booking
+/restaurant/menu
+```
 ## RUN APP
 
 ### 1. Install `pipenv`
