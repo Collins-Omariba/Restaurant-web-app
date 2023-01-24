@@ -13,6 +13,6 @@ urlpatterns = [
     path('menu/<int:pk>', views.SingleMenuItemView.as_view()),
     path('booking', include(router.urls)),
     path('api-token-auth', obtain_auth_token)
-                                                           
+                                                    
 ]
 
