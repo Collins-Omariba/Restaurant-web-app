@@ -5,8 +5,8 @@ Restaurant website implemented in  ![Django](https://img.shields.io/badge/Django
 ```bash
 /auth/token/login
 /restaurant/api-token-auth
-/restaurant/booking
-/restaurant/menu
+/restaurant/booking-api
+/restaurant/menu-api
 ```
 ## RUN APP
 
