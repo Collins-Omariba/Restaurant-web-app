@@ -1,8 +1,12 @@
 # Restaurant-website
 
-Restaurant website implemented in  ![Django](https://img.shields.io/badge/Django-092e20?style=flat&logo=django&logoColor=white)
+ - Restaurant website implemented in  ![Django](https://img.shields.io/badge/Django-092e20?style=flat&logo=django&logoColor=white)<br>
+
+ - Contains complete templates and DRF api endpoints yet to be integrated to a frontend.
+
 ## MAIN API ENPOINTS
 ```bash
+/auth/users
 /auth/token/login
 /restaurant/api-token-auth
 /restaurant/booking-api

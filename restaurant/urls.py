@@ -12,11 +12,11 @@ urlpatterns = [
     path('about/', views.about, name="about"),
     path('book/', views.book, name="book"),
     path('menu/', views.menu, name="menu"),
-    path('menu_item/<int:pk>/', views.display_menu_item, name="menu_item"),
+    path('menuitem/<int:pk>/', views.display_menu_item, name="menu_item"),
 
 
     path('menu-api', views.MenuItemView.as_view()),
-    path('menu-api/<int:pk>', views.SingleMenuItemView.as_view()),
+    path('menuitem-api/<int:pk>', views.SingleMenuItemView.as_view()),
     path('booking-api', include(router.urls)),
     path('api-token-auth', obtain_auth_token)
                                                     
