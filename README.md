@@ -1,4 +1,4 @@
-# littlelemon-restaurant-website
+# Restaurant-website
 
 Restaurant website implemented in  ![Django](https://img.shields.io/badge/Django-092e20?style=flat&logo=django&logoColor=white)
 ## MAIN API ENPOINTS
