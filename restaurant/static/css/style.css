@@ -126,7 +126,7 @@ input{
 #button {
     padding: .5rem 1rem;
     border: 1px solid  #1a1a1a;
-    background-color:#495E57;;
+    background-color:#2596be;;
     border-radius: 5px;
     width: 80%;
     font-size: 1.25rem;
@@ -147,7 +147,7 @@ input{
 #hero p {
     font-size: 2rem;
     margin:0;
-    text-shadow: 2px 2px 4px #333333;
+    text-shadow: 2px 2px 4px #2596be;
 }
 
 .cta { 
@@ -166,8 +166,8 @@ input{
 
 .cta:hover {
     color:#fff;
-    background:#495E57;
-    border: 3px solid #495E57; 
+    background:#2596be;
+    border: 3px solid #2596be; 
   }
 
   .heading-shadow {
