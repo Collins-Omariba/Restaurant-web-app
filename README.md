@@ -14,16 +14,16 @@
 ```
 ## RUN APP
 
-### 1. Install `pipenv`
+### 1. Create and Activate a virtual environment
 
 ```bash
-pip install pipenv
+python3 -m venv env
 ```
 
 ### 2. Install dependencies
 
 ```bash
-pipenv install
+pip install -r requirements.txt
 ```
 
 ### 3. Make database migrations
@@ -38,7 +38,7 @@ then
 py manage.py migrate
 ```
 
-### 4. RUN
+### 4. Run server
 
 ```bash
 py manage.py runserver
