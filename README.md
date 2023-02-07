@@ -7,7 +7,7 @@
 ## DEPLOY LINKS
 
  - Frontend [https://restaurant-web-app-j13l.onrender.com/restaurant/]
- - API [https://restaurant-web-app-j13l.onrender.com/restaurant/]
+ - API [https://restaurant-web-app-j13l.onrender.com/api/schema/swagger-ui/#/]
 
 ## MAIN API ENPOINTS
 ```bash
