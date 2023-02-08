@@ -3,6 +3,11 @@
  - Restaurant website implemented in  ![Django](https://img.shields.io/badge/Django-092e20?style=flat&logo=django&logoColor=white)<br>
 
  - Contains complete templates and DRF api endpoints yet to be integrated to a frontend.
+ 
+## DEPLOY LINKS
+
+ - Frontend [https://restaurant-web-app-j13l.onrender.com/restaurant/]
+ - API [https://restaurant-web-app-j13l.onrender.com/api/schema/swagger-ui/#/]
 
 ## MAIN API ENPOINTS
 ```bash
@@ -43,3 +48,4 @@ py manage.py migrate
 ```bash
 py manage.py runserver
 ```
+
