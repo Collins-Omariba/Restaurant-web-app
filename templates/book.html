@@ -9,7 +9,7 @@
     <div class="row">
       <!--Begin col-->
       <div class="column">
-        <form action="" method="post">
+        <form id="form" action="" method="post">
           {% csrf_token %}
           {{form.as_p}}
           <input type="submit" id="button">
@@ -29,9 +29,13 @@
     </div>
     <!--End row-->
 
-
-
-
+    <script>
+      document.getElementById("form").addEventListener("submit", function(event) {
+        event.preventDefault();
+        alert("Thanks for Booking, Form submitted!");
+        event.target.reset();
+      });
+    </script>
   </article>
 </section>
 {% endblock %}
